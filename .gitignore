@@ -1,0 +1,9 @@
+# files to ignore in local repository
+
+.ipynb_checkpoints/
+Linear_Regression/__pycache__/
+Linear_Regression/ex1data1.txt
+Linear_Regression/ex1data2.txt
+Logistic_Regression/logReg_data1.txt
+Logistic_Regression/logReg_data2.txt
+ex_PDFs/
