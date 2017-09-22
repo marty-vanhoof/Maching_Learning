@@ -1,3 +1,9 @@
+import numpy as np
+
+def logistic(z):
+    
+    return 1 / (1 + np.exp(-z))
+
 def logReg_cost(theta, X, y):
     '''Compute the cost function. 
     Inputs:
