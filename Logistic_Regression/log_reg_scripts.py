@@ -4,6 +4,7 @@ def logistic(z):
     
     return 1 / (1 + np.exp(-z))
 
+
 def logReg_cost(theta, X, y):
     '''Compute the cost function. 
     Inputs:
@@ -20,6 +21,7 @@ def logReg_cost(theta, X, y):
     J_theta = ( -1/len(y) )*( y.T*ln_h + (1 - y.T)*ln_1h )
     
     return J_theta[0,0]
+
 
 def logReg_gradient(theta, X, y):
     '''Compute the gradient of the logistic regression cost function. 
