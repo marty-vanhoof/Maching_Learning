@@ -10,3 +10,4 @@ Logistic_Regression/logReg_data3.mat
 ex_PDFs/
 Logistic_Regression/__pycache__/
 Neural_Networks/NNdata1.mat
+Neural_Networks/NNweights.mat
